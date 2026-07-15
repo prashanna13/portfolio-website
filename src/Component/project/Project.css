@@ -32,7 +32,7 @@
 
 .card_artical{
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     
 }
 
@@ -54,7 +54,7 @@
     box-shadow: 0 8px 24px;
     border-radius: 1rem;
     position: absolute;
-    bottom: -11rem;
+    bottom: -2rem;
     left: 0;
     right: 0;
     margin-inline: auto;
@@ -87,7 +87,7 @@
 }
 
 .card_artical:hover .card__data{
-    animation: show-data 10 forwards;
+    animation:show-data .5s forwards;
     opacity: 1;
     transition: opacity .3s;
 }
