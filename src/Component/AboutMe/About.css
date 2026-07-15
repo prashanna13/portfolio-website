@@ -9,6 +9,7 @@
     border-top-left-radius: 10vh;
     /* border-bottom-right-radius: 50px; */
     width: 120vh;
+    font-size: 1.05em;
 }
 
 .aimg{
@@ -27,9 +28,8 @@
     position: absolute;
     left: 40%; 
     transform: translate(-50%, 0%); /* Perfect centering */
-    padding: 10px 20px;
     border-radius: 10px;
-    height: 300px;
+    height: 340px;
 }
 
 .about-me p{

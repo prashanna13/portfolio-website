@@ -22,7 +22,7 @@ const Home = () => {
               <span className='role'>Content Creator.</span>
             </div>
             </div>
-      <p className='me'>I am a Computer Science undergraduate passionate about frontend and backend development, combining skills in React, UI/UX design, and creative digital content to build engaging user experiences.</p>
+            <p className='me'>I am a Computer Science graduate passionate about frontend development, combining skills in React, UI/UX design, and creative digital content to build engaging user experiences.</p>
          </div>
       </div>
     </div>

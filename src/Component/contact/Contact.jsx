@@ -4,6 +4,8 @@ import msg_icon from '../../assets/msg-icon.png'
 import mail_img from '../../assets/mail-icon.png'
 import phoneno_img from '../../assets/phone-icon.png'
 import Location_img from '../../assets/location-icon.png'
+import instagram_img from '../../assets/Instagram.png'
+import Youtube_img from '../../assets/youtube.png'
 
 const Contact = () => {
    const [result, setResult] = React.useState("");
@@ -44,6 +46,8 @@ const Contact = () => {
             <li><img src={phoneno_img} alt="" />9843958426</li>
             <li><img src={Location_img} alt="" />Kiritpur-09, Kathmnandu, Nepal</li>
           </ul>
+          <a href="https://www.instagram.com/_prashanna.maharjan/"><img src={instagram_img} alt="" /></a>
+          <a href="https://www.youtube.com/@prashannamaharjan8328"><img src={Youtube_img} alt="" /></a>
         </div>
         <div className='contact-col'>
           <form onSubmit={onSubmit}>
