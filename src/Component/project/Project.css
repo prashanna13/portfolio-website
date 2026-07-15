@@ -187,6 +187,7 @@
   }
 
   .card__data {
+    position: absolute;
     width: 90%;
     bottom: -8rem;
     padding: 1rem 1.25rem;
@@ -232,6 +233,7 @@
   }
 
   .card__data {
+    position: absolute;
     width: 250px;
     bottom: -9rem;
     padding: 1.25rem 1.75rem;
@@ -274,6 +276,7 @@
   }
 
   .card__data {
+    position: absolute;
     width: 280px;
     bottom: -11rem;
   }
