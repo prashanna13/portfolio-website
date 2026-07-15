@@ -87,6 +87,7 @@
 }
 
 .card_artical:hover .card__data{
+  position: absolute;
     animation:show-data .5s forwards;
     opacity: 1;
     transition: opacity .3s;
