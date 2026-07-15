@@ -52,7 +52,7 @@ export const Homelayout = () => {
 }
 const App = () => {
   return (
-     <Router>
+     <Router basename="/portfolio-website">
       <Routes>
         <Route path="/" element={
           <Layout>
