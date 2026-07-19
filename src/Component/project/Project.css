@@ -105,7 +105,7 @@
     animation: remove-data 1s forwards;
 }
 
-/* 
+
 @keyframes show-data{
     50%{
         transform: translateY(-10rem);
@@ -148,7 +148,7 @@
 .imageRevel {
   animation: imageRevel 1s both;
   animation-timeline: view(90% 10%);
-} */
+}
 
 @keyframes imageRevel {
   from{
@@ -188,7 +188,7 @@
   }
 
   .card__data {
-    position: absolute;
+    /* position: absolute; */
     width: 90%;
     bottom: -8rem;
     padding: 1rem 1.25rem;
@@ -234,7 +234,7 @@
   }
 
   .card__data {
-    position: absolute;
+    /* position: absolute; */
     width: 250px;
     bottom: -9rem;
     padding: 1.25rem 1.75rem;
@@ -277,7 +277,7 @@
   }
 
   .card__data {
-    position: absolute;
+    /* position: absolute; */
     width: 280px;
     bottom: -11rem;
   }
