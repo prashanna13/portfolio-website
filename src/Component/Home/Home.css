@@ -26,7 +26,7 @@
     align-items: center;
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 img{
