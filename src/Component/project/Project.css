@@ -50,19 +50,18 @@
 }
 
 .card__data{
-    position:absolute;
-    left:50%;
+  /* position: absolute; */
+    width: 280px;
+    background-color: aliceblue;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px;
+    border-radius: 1rem;
     bottom:20px;
-
-    width:280px;
-
-    transform:translateX(-50%);
-    opacity:0;
-
-    background:#eef7ff;
-    border-radius:1rem;
-
-    transition:.4s;
+    left: 50%;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s ;
 }
 
 .card__description{
