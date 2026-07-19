@@ -12,6 +12,7 @@ import Manisha from './Component/project/manisha/Manisha'
 import Rusha from './Component/project/rusha/Rusha'
 import Bhaktapur from './Component/project/bhaktapur/Bhaktapur'
 import Analog from './Component/project/analog/analog'
+import Sanish from './Component/project/sanishWeds/sanish'
 
 
 
@@ -61,6 +62,7 @@ const App = () => {
         } />
         <Route path="/manisha" element={<Manisha />} /> {/* No navbar here */}
         <Route path="/vintage" element={<Analog />} /> {/* No navbar here */}
+        <Route path="/sanish" element={<Sanish />} /> {/* No navbar here */}
         <Route path="/Bhakta" element={<Bhaktapur />} /> {/* No navbar here */}
         <Route path="/rusha" element={
           // <Layout> if it was not commented then navbar will show up

@@ -17,6 +17,7 @@
     place-items: center;
     margin-inline: 1.5rem;
     padding-block: 5rem;
+    height: 70vh;
 }
 
 .card__project{
@@ -87,7 +88,7 @@
 }
 
 .card_artical:hover .card__data{
-  position: absolute;
+  /* position: absolute; */
     animation:show-data .5s forwards;
     opacity: 1;
     transition: opacity .3s;

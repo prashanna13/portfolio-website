@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css'
 import img from '../../assets/prashana.png'
-
+import instagram_img from '../../assets/Instagram.png'
+import Youtube_img from '../../assets/youtube.png'
 
 
 const Home = () => {
@@ -22,7 +23,9 @@ const Home = () => {
               <span className='role'>Content Creator.</span>
             </div>
             </div>
-            <p className='me'>I am a Computer Science graduate passionate about frontend development, combining skills in React, UI/UX design, and creative digital content to build engaging user experiences.</p>
+              <p className='me'>I am a Computer Science graduate passionate about frontend development, combining skills in React, UI/UX design, and creative digital content to build engaging user experiences.</p>
+              <a href="https://www.instagram.com/_prashanna.maharjan/"><img src={instagram_img} alt="" /></a>
+              <a href="https://www.youtube.com/@prashannamaharjan8328"><img src={Youtube_img} alt="" /></a>
          </div>
       </div>
     </div>

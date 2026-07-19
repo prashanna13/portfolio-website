@@ -4,6 +4,7 @@ import Bhktapur from '../../assets/project/Bhktapur/1.jpg'
 import Manisha from '../../assets/project/manisha/1.jpg'
 import Rusha from '../../assets/project/rusha/1.jpg'
 import Analog from '../../assets/project/vintage/1.JPG'
+import Sanish from '../../assets/project/sanish/1.jpg'
 import { Link } from 'react-router-dom'
 
 const Project = () => {
@@ -52,6 +53,17 @@ const Project = () => {
           </div>
         </article>
         </div>
+        
+        <article className='card_artical'>
+          <img src={Sanish} alt="sanish weds shahista" className='card__img'/>
+          <div className='card__data'>
+            <span className='card__description'> "two heart, one journey, endless memories.</span>
+            <h2 className='card__title'>Sanish weds Shahista</h2>
+            {/* <a href="manisha.jsx" target='_blank' className="card__button">Read More</a> */}
+            <Link to="/sanish"  className="card__button">Read More</Link>
+          </div>
+        </article>
+       
         
 
       </div>
