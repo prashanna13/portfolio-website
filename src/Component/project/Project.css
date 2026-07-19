@@ -24,15 +24,17 @@
 }
 
 .card__project{
-    display: flex;
-    row-gap: 5rem;
-    /* flex-direction: row; */
-    /* column-gap: 1rem; */
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:2rem;
+    flex-wrap:wrap;
 }
 
 .card_artical{
-    position: sticky;
-    overflow: hidden;
+    position: relative;
+    overflow: visible;
+    width: 328px;
     
 }
 
@@ -48,18 +50,19 @@
 }
 
 .card__data{
-    width: 280px;
-    background-color: aliceblue;
-    padding: 1.5rem 2rem;
-    box-shadow: 0 8px 24px;
-    border-radius: 1rem;
-    position: absolute;
-    bottom: -2rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-    opacity: 0;
-    transition: opacity 1s 1s ;
+    position:absolute;
+    left:50%;
+    bottom:20px;
+
+    width:280px;
+
+    transform:translateX(-50%);
+    opacity:0;
+
+    background:#eef7ff;
+    border-radius:1rem;
+
+    transition:.4s;
 }
 
 .card__description{
@@ -87,10 +90,8 @@
 }
 
 .card_artical:hover .card__data{
-  position: absolute;
-    animation:show-data .5s forwards;
-    opacity: 1;
-    transition: opacity .3s;
+    opacity:1;
+    transform:translate(-50%,0);
 }
 
 .card_artical:hover{
@@ -105,7 +106,7 @@
     animation: remove-data 1s forwards;
 }
 
-
+/* 
 @keyframes show-data{
     50%{
         transform: translateY(-10rem);
@@ -148,7 +149,7 @@
 .imageRevel {
   animation: imageRevel 1s both;
   animation-timeline: view(90% 10%);
-}
+} */
 
 @keyframes imageRevel {
   from{
